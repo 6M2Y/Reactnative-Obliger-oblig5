@@ -1,13 +1,15 @@
+//list of locations
+
 import { Alert } from 'react-native';
 import { Location } from './Types';
 
 export const locationImages = {
-  tromso: require('../asset/Locations/tromso.png'),
-  bodo: require('../asset/Locations/bodo.png'),
-  jess: require('../asset/Locations/jess.png'),
-  kris: require('../asset/Locations/Krist.png'),
-  lille: require('../asset/Locations/lillesand.png'),
-  trond: require('../asset/Locations/berg1.png'),
+  tromso: require('../asset/LocationImages/tromso.png'),
+  bodo: require('../asset/LocationImages/bodo.png'),
+  jess: require('../asset/LocationImages/jess.png'),
+  kris: require('../asset/LocationImages/Krist.png'),
+  lille: require('../asset/LocationImages/lillesand.png'),
+  trond: require('../asset/LocationImages/berg1.png'),
 };
 
 export const locations: Location[] = [

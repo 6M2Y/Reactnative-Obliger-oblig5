@@ -3,9 +3,9 @@ import { ScrollView } from 'react-native';
 import { CardHome } from './CardHome';
 
 const images = {
-  image1: require('../asset/Locations/berg.png'),
-  image2: require('../asset/Locations/jess.png'),
-  image3: require('../asset/Locations/tromso.png'),
+  image1: require('../asset/LocationImages/berg.png'),
+  image2: require('../asset/LocationImages/jess.png'),
+  image3: require('../asset/LocationImages/tromso.png'),
 };
 
 const titles = {
