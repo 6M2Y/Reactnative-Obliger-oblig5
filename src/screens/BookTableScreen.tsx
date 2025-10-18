@@ -35,7 +35,7 @@ const BookTableForm: React.FC = () => {
 
         <TextInput
           style={styles.input}
-          placeholder="Your Name"
+          placeholder="Enter your name"
           value={name}
           onChangeText={setName}
         />

@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../components/Header';
 import ButtonComponent from '../components/ButtonComponent';
 import Infosection from '../components/Infosection';
-import styles from '../Utility/Styles';
+import styles from '../utility/Styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Cards from '../components/Cards';
 import Footer from '../components/Footer';
@@ -22,7 +22,7 @@ const HomeScreen: React.FC = ({ navigation }: any) => {
     },
     {
       title: 'LOKALER',
-      action: () => navigation.navigate('Location'),
+      action: () => navigation.navigate('Locations'),
     },
   ];
   return (

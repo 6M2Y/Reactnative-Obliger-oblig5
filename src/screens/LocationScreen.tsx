@@ -1,9 +1,9 @@
 import { View, TextInput, ScrollView, Text } from 'react-native';
 import React, { useState } from 'react';
-import { locations } from '../Utility/LocationsList'; //holder lister med location
+import { locations } from '../utility/LocationsList'; //holder lister med location
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Location } from '../Utility/Types'; //typescript type for location
-import Styles from '../Utility/Styles'; //styles
+import { Location } from '../utility/Types'; //typescript type for location
+import Styles from '../utility/Styles'; //styles
 import LocationCard from '../components/LocationCard'; //location display cards
 import Footer from '../components/Footer';
 

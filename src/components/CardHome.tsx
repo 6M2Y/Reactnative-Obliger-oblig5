@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Text, View } from 'react-native';
-import { CardProp } from '../Utility/Types';
-import Styles from '../Utility/Styles';
+import { CardProp } from '../utility/Types';
+import Styles from '../utility/Styles';
 
 export const CardHome = (props: CardProp) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Alert, Image, Text, View } from 'react-native';
-import { Location } from '../Utility/Types';
-import Styles from '../Utility/Styles';
+import { Location } from '../utility/Types';
+import Styles from '../utility/Styles';
 import ButtonComponent from './ButtonComponent';
 
 const LocationCard = (props: Location) => {

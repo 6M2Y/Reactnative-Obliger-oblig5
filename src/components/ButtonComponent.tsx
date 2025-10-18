@@ -1,6 +1,6 @@
 import { Text, Pressable } from 'react-native';
-import styles from '../Utility/Styles';
-import { PropsBtn } from '../Utility/Types';
+import styles from '../utility/Styles';
+import { PropsBtn } from '../utility/Types';
 
 export default function ButtonComponent({ title, action, color }: PropsBtn) {
   return (

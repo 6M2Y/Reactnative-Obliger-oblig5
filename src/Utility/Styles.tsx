@@ -4,7 +4,7 @@ const Styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 10,
-    marginTop: -50,
+    marginTop: 0,
   },
 
   /* Header styles */

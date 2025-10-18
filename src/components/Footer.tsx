@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import styles from '../Utility/Styles';
+import styles from '../utility/Styles';
 
 export default function Footer() {
   return (

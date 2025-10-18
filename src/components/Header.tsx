@@ -5,7 +5,7 @@ import {
   MenuOption,
   MenuTrigger,
 } from 'react-native-popup-menu';
-import styles from '../Utility/Styles';
+import styles from '../utility/Styles';
 import { useNavigation } from '@react-navigation/native';
 import React, { useState } from 'react';
 

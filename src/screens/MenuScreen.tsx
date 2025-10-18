@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
-import { menuItems } from '../Utility/MenuList'; //list of menus
+import { menuItems } from '../utility/MenuList'; //list of menus
 import Footer from '../components/Footer';
 
 const MenuScreen: React.FC = () => {
