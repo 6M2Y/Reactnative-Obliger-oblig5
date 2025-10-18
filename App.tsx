@@ -1,10 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import BookTableScreen from './src/screens/BookTableScreen';
 import LocationScreen from './src/screens/LocationScreen';
 import { MenuProvider } from 'react-native-popup-menu';
-import MainTabs from './src/components/MainTabs';
+import MainTabs from './src/components/MainTabs'; //renders bottom tabs
 
 const stack = createNativeStackNavigator();
 
